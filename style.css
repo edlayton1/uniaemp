@@ -1,0 +1,44 @@
+* {margin:0;padding:0}
+.inner_copy {border:0;color:#f0000;float:left;width:50% !important;margin:-100% 0 0 0;overflow:hidden;line-height:0;padding:0;font-size:11px}
+.fleft {float:left}
+.fright  {float:right}
+.fcenter {float:none;margin:0 auto;width:96%}
+.fclear {clear:both}
+body {font-family:Arial,Helvetica,sans-serif;font-size:12px;background:url(images/universum.jpg)  }
+#container {width:800px;margin:auto;background:#0B2161}
+#layoutHeader {width:800px;height:216px;background:url(images/headerBackground.jpg) no-repeat}
+#layoutHeader h1 {color:#124578;font-size:36px;font-weight:bold;padding:20px 20px 0 20px}
+#layoutHeader h2 {color:#DBA901;font-size:14px;font-weight:bold;padding:0 20px 0 20px}
+#layoutHeader h1 a {color:white;font-size:36px;font-weight:bold;text-decoration:none}
+#layoutHeader h2 a {color:#DBA901;font-size:14px;font-weight:bold;text-decoration:none}
+#layoutCenterBody {margin:10px 10px 0 10px}
+#layoutNavigation {border:1px solid #B18904;width:200px;float:left;background:#B18904}
+#layoutNavigation .navTitle {background:#DBA901;height:30px}
+#layoutNavigation .navTitle h3 {color:#fff;font-size:12px;font-weight:bold;padding:6px 10px}
+#layoutBodyContent {margin-left:220px}
+#layoutBodyContent a {color:#B18904;font-size:12px;font-weight:bold}
+#layoutBodyContent h1 {color:#A4A4A4;font-weight:bold;font-size:24px}
+#layoutBodyContent h2 {color:#B18904;font-weight:bold;font-size:14px;margin-top:10px}
+#layoutBodyContent h3 {color:#B18904;font-weight:bold;font-size:22px;margin-top:10px}
+#layoutBodyContent p {color:#E6E6E6;margin-top:10px}
+#layoutBodyContent h4 {color:#B18904;margin-top:10px}
+.clearer {clear:both;height:10px}
+#footer {height:56px;background:url(images/menuBackground.gif) repeat-x;text-align:center}
+#footer p {padding-top:10px;color:#fff}
+#footer a {color:#fff;text-decoration:underline}
+#footer a:hover {color:#000;text-decoration:none;background:#FFED58}
+/* main menu begins */
+#layoutMenu {height:56px;background:url(images/menuBackground.gif) repeat-x;font-weight:ComicSans}
+#layoutMenu ul {text-align:center;padding-top:17px}
+#layoutMenu li {list-style:none;display:inline}
+#layoutMenu li a {padding:3px 20px 3px 8px;text-decoration:none;background:url(images/mainMenuList.gif) no-repeat left 5px;font-size:12px}
+#layoutMenu li a:link {color:#fff;font-weight:bold;font-size:12px}
+#layoutMenu li a:visited {color:#fff}
+#layoutMenu li a:hover {color:#FFF600}
+/* mein menu ends */
+/* left navigation menu begins */
+#layoutNavigation ul {list-style-type:none;margin:10px 0}
+#layoutNavigation a {display:block;width:180px;background-color:#B18904;border-bottom:1px dotted #B18904;margin:7px 10px}
+#layoutNavigation a:link, #layoutNavigation a:visited {color:#fff;text-decoration:none}
+#layoutNavigation a:hover {background-color:#0B0B61;color:#fff}
+/* left navigation menu ends */
